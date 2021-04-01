@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <Header />
-    <QuestionBox />
+    <NavigationBar />
+    <!-- <Header /> -->
+    <!-- <QuestionBox /> -->
   </div>
 </template>
 
 <script>
 
-import Header from './components/Header.vue'
-import QuestionBox from './components/QuestionBox.vue'
+// import Header from './components/Header.vue'
+// import QuestionBox from './components/QuestionBox.vue'
+import NavigationBar from './components/NavigationBar.vue'
 
 export default {
   name: 'App',
   components: {
-    Header,
-    QuestionBox
+    // Header,
+    // QuestionBox,
+    NavigationBar
   }
 }
 </script>
